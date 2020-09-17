@@ -1,0 +1,27 @@
+.checkout{
+    display:flex;
+    padding:20px;
+    height:max-content;
+    background-color: white;
+    justify-content: space-evenly;
+    /* margin:5px; */
+}
+
+.checkout__ad{
+    width:100%;
+    margin-bottom:10px;
+    /* margin-right:10px; */
+}
+
+.checkout__Empty{
+    font-size:20px;
+    align-items:center;
+    margin-left:10px;
+}
+
+.checkout__NotEmpty{
+    font-size:20px;
+    align-items:center;
+    margin-left:10px;
+    font-weight:600;
+}

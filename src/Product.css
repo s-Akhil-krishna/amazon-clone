@@ -1,0 +1,57 @@
+
+.product{
+    display:flex;
+    flex-direction:column;/*children of product forms a column*/
+    max-height:400px;
+    min-width:150px;
+    background-color: white;
+    align-items:center;
+    margin:10px;
+    padding:20px;
+    width:100%;
+    justify-content:flex-end;/*push the content to the bottom of the page*/
+    z-index:1;
+}
+
+.home__row{
+    background-color: gainsboro;
+    margin-left:10px;
+    margin-right:10px;
+    display:flex;
+    padding:10px;
+    z-index : 1;
+}
+.product__info{
+    height:100px;
+    margin-bottom:15px;
+}
+
+.product_price{
+    margin-top:5px;
+    padding:5px;
+}
+
+.product__rating{
+    display:flex;
+    margin-bottom:20px;
+}
+
+.product__image{
+    max-height:200px;
+    width:100%;
+    object-fit:contain;
+    /*setting height distorts the image,so use this */
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.product > button{
+    padding:7px;
+    margin-bottom:5px;
+    border: 1px solid;
+}
+
+.product > button{
+    width:50%;
+    background-color: #f0c14b;
+}
